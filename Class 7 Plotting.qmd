@@ -1,0 +1,16 @@
+---
+title: "Class 7"
+author: "Samantha Stuppy"
+format: html
+editor: visual
+---
+
+Extended Plotting...
+
+lots of graphs/plots have packages made that you can use : https://r-graph-gallery.com/
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+```

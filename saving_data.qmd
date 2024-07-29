@@ -1,0 +1,19 @@
+```{r}
+# save to disk
+iris
+write.table(x = iris, "iris_copy.csv", sep = ",")
+write.table(x = iris, "iris_copy", sep = "\t")
+
+writeLines("this is my text output", con = "write-lines-example")
+```
+
+```{r}
+# save R objects AS IS
+saveRDS(object = iris, file = "iris_dataframe.rds")
+```
+
+```{r}
+# Read RDS file to object in session
+iris_from_disk <- readRDS(file = "iris_dataframe.rds")
+```
+
